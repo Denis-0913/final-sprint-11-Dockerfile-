@@ -17,4 +17,4 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /my_app
 CMD ["/my_app"] 
 
 # команда, которой был собран образ
-#docker build -t denisdegtyarev/42-docker-final-main:v1
+#docker build -t denisdegtyarev/42-docker-final-main:v1 .
